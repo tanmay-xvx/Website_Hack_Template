@@ -2557,4 +2557,7 @@ section {
   .para_text {
     font-size: 15px;
   }
+  .quote{
+    font-style: italic;
+  }
 }
