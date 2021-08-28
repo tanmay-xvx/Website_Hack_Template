@@ -1326,7 +1326,7 @@ section {
 ====================================== */
 
 .slider-area {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/BGD1.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1462,7 +1462,7 @@ section {
 ====================================== */
 
 .about-bg {
-  background-image: url("../images/about-bg.jpg");
+  background-image: url("../images/BGD2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1547,7 +1547,7 @@ section {
 ====================================== */
 
 .all-products {
-  background-image: url("../images/products_bg.jpg");
+  background-image: url("../images/BGD1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1650,7 +1650,7 @@ section {
 ====================================== */
 
 .counter-bg {
-  background-image: url("../images/contact_bg.jpg");
+  background-image: url("../images/BGD2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1697,7 +1697,7 @@ section {
 ====================================== */
 
 .reviews {
-  background-image: url("../images/testimonial_bg.jpg");
+  background-image: url("../images/BGD1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1740,7 +1740,7 @@ section {
 ====================================== */
 
 .contact-sec {
-  background-image: url("../images/contact_bg.jpg");
+  background-image: url("../images/BGD2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1939,7 +1939,7 @@ section {
   position: relative;
   text-align: center;
   padding: 200px 0 150px 0;
-  background: url("../images/standalone.jpg");
+  background: url("../images/BGD1.png");
   background-size: cover;
   background-position: top center;
 }
