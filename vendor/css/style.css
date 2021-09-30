@@ -437,6 +437,16 @@ section {
   border-color: #c42629;
   color: #ffffff !important;
 }
+.btn.btn-purple {
+  background: #570f57;
+  border-color: #570f57;
+  color: #ffffff;
+}
+.btn.btn-purple:hover {
+  background: #0888a3 !important;
+  border-color: #0888a3;
+  color: #ffffff !important;
+}
 
 /* button size */
 .btn.btn-small {
@@ -1321,6 +1331,25 @@ section {
   }
 }
 
+@media screen and (max-width: 426px) {
+  .container{
+    flex-direction: column;
+    display: flex;
+  }
+  #mobview1{
+    order: 2;
+    padding-top: 100px;
+  }
+  #mob-view1{
+    order:1;
+  }
+  .banner-image img{
+    height: 300px;
+    width: 300px;
+  }
+}
+
+
 /* ===================================
    Banner
 ====================================== */
@@ -1542,6 +1571,16 @@ section {
   font-weight: 200;
 }
 
+@media screen and (max-width: 1024px){
+  .mob-para-view{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 426px){
+  .mob-morphic-p{
+    font-size: 1rem;
+  }
+}
 /* ===================================
      PRODUCTS
 ====================================== */
