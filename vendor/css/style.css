@@ -1528,7 +1528,12 @@ section {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
+.news-item .default-cursor{
+  cursor:default;
+}
+.news-item .text-cursor{
+  cursor:text;
+}
 .news-item img {
   width: 100%;
   transition: all 0.5s ease 0.2s;
@@ -1642,7 +1647,9 @@ section {
 .owl-products .owl-item.center .item {
   transform: scale(1);
 }
-
+.grab-cursor{
+  cursor: grab;
+}
 .owl-products .owl-item.center .team-box .team-text h5 {
   font-size: 26px;
   color: #ffffff;
