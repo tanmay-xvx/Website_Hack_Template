@@ -1585,6 +1585,12 @@ section {
      PRODUCTS
 ====================================== */
 
+.slider-area {
+  background-image: url("../images/BGD1.png");
+  height: 119vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .all-products {
   background-image: url("../images/BGD1.png");
   background-repeat: no-repeat;
