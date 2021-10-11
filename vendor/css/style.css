@@ -1245,6 +1245,11 @@ section {
   width: 100% !important;
 }
 
+.banner-image img {
+  position: relative;
+  z-index: 2;
+}
+
 @media (max-width: 1366px) {
   .center-brand .sidemenu_btn {
     right: 0;
@@ -1332,30 +1337,29 @@ section {
 }
 
 @media screen and (max-width: 426px) {
-  .container{
+  .container {
     flex-direction: column;
     display: flex;
   }
-  #mobview1{
+  #mobview1 {
     order: 2;
     padding-top: 100px;
   }
-  #mob-view1{
-    order:1;
+  #mob-view1 {
+    order: 1;
   }
-  .banner-image img{
+  .banner-image img {
     height: 300px;
     width: 300px;
   }
 }
-
 
 /* ===================================
    Banner
 ====================================== */
 
 .slider-area {
-  background-image: url("../images/BGD1.png");
+  background-image: url("../Images/BGD1.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1395,33 +1399,33 @@ section {
 }
 
 .circle-one {
-  position: absolute;
-  top: 34%;
-  left: 56%;
+  position: fixed;
+  top: 54%;
+  left: 54%;
 }
 
 .circle-two {
-  top: 24%;
-  left: 70%;
-  position: absolute;
+  top: 79%;
+  left: 58%;
+  position: fixed;
 }
 
 .circle-three {
-  top: 33%;
+  top: 30%;
   left: 83%;
-  position: absolute;
+  position: fixed;
 }
 
 .circle-four {
-  top: 65%;
-  left: 57%;
-  position: absolute;
+  top: 82%;
+  left: 80%;
+  position: fixed;
 }
 
 .circle-five {
-  top: 58%;
-  left: 76%;
-  position: absolute;
+  top: 55%;
+  left: 88%;
+  position: fixed;
 }
 
 .animated-circle {
@@ -1491,9 +1495,10 @@ section {
 ====================================== */
 
 .about-bg {
-  background-image: url("../images/BGD2.png");
+  background-image: url("../Images/BGD2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .main-heading h2 {
@@ -1523,7 +1528,12 @@ section {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
+.news-item .default-cursor{
+  cursor:default;
+}
+.news-item .text-cursor{
+  cursor:text;
+}
 .news-item img {
   width: 100%;
   transition: all 0.5s ease 0.2s;
@@ -1571,28 +1581,27 @@ section {
   font-weight: 200;
 }
 
-@media screen and (max-width: 1024px){
-  .mob-para-view{
+@media screen and (max-width: 1024px) {
+  .mob-para-view {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 426px){
-  .mob-morphic-p{
+@media screen and (max-width: 426px) {
+  .mob-morphic-p {
     font-size: 1rem;
   }
 }
 /* ===================================
      PRODUCTS
 ====================================== */
-
 .slider-area {
-  background-image: url("../images/BGD1.png");
+  background-image: url("../Images/BGD1.png");
   height: 119vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .all-products {
-  background-image: url("../images/BGD1.png");
+  background-image: url("../Images/BGD1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1638,7 +1647,9 @@ section {
 .owl-products .owl-item.center .item {
   transform: scale(1);
 }
-
+.grab-cursor{
+  cursor: grab;
+}
 .owl-products .owl-item.center .team-box .team-text h5 {
   font-size: 26px;
   color: #ffffff;
@@ -1695,7 +1706,7 @@ section {
 ====================================== */
 
 .counter-bg {
-  background-image: url("../images/BGD2.png");
+  background-image: url("../Images/BGD2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1742,7 +1753,7 @@ section {
 ====================================== */
 
 .reviews {
-  background-image: url("../images/BGD1.png");
+  background-image: url("../Images/BGD1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1785,7 +1796,7 @@ section {
 ====================================== */
 
 .contact-sec {
-  background-image: url("../images/BGD2.png");
+  background-image: url("../Images/BGD2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2602,7 +2613,7 @@ section {
   .para_text {
     font-size: 15px;
   }
-  .quote{
+  .quote {
     font-style: italic;
   }
 }
