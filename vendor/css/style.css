@@ -1587,8 +1587,12 @@ section {
   }
 }
 @media screen and (max-width: 426px) {
-  .mob-morphic-p {
-    font-size: 1rem;
+  .mob-morphic-h4 {
+    font-size: 1.0rem;
+  }
+  .mob-morphic-h6 {
+    font-size: 0.85rem;
+    font-weight: bolder;
   }
 }
 /* ===================================
@@ -1596,7 +1600,7 @@ section {
 ====================================== */
 .slider-area {
   background-image: url("../Images/BGD1.png");
-  height: 119vh;
+  height: 137vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
